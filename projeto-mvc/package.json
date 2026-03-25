@@ -1,0 +1,17 @@
+{
+  "name": "app-mvc",
+  "version": "1.0.0",
+  "description": "App MVC simples (Express + EJS) com CRUD em memória.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
