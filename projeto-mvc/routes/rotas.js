@@ -1,5 +1,5 @@
-const express = require("express");
-const router = express.Router();
+const express = require("express"); //importei express
+const router = express.Router(); // Criei um rotador
 
 // Importa os controllers (cada um contém a lógica das páginas) 
 const homeController = require("../controllers/homeController");
@@ -7,7 +7,7 @@ const sobreController = require("../controllers/sobreController");
 const contatoController = require("../controllers/contatoController");
 const produtosController = require("../controllers/produtosController");
 
-//ROTAS ESTÁTICAS 
+//ROTAS ESTÁTICAS  (ESCREVI OS ENDEREÇOS)
 // GET / → página inicial
 router.get("/", homeController.index);
 // GET /sobre → página sobre
