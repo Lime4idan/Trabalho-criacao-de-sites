@@ -1,6 +1,6 @@
 let produtos = [
-  { id: 1, nome: "Nintendo Switch 2", preco: 5.000, descricao: "Console Nintendo de última geração" },
-  { id: 2, nome: "PS5 Pro", preco: 2.000, descricao: "Console Sony" }
+  { id: 1, nome: "Nintendo Switch 2", preco: 5000, descricao: "Console Nintendo de última geração" },
+  { id: 2, nome: "PS5 Pro", preco: 2000, descricao: "Console Sony" }
 ];
 
 let nextId = 3;
