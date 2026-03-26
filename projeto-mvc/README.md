@@ -15,8 +15,7 @@ O que o projeto faz
 
 No terminal:
 
-bash
-cd app-mvc
+cd projeto-mvc
 npm install
 npm start
 
