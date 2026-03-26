@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-// Importa os controllers (cada um contém a lógica das páginas)
+// Importa os controllers (cada um contém a lógica das páginas) 
 const homeController = require("../controllers/homeController");
 const sobreController = require("../controllers/sobreController");
 const contatoController = require("../controllers/contatoController");
