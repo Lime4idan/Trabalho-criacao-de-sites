@@ -29,6 +29,16 @@
             <li class="nav-item"><a class="nav-link" href="/sobre">Sobre</a></li>
             <li class="nav-item"><a class="nav-link" href="/contato">Contato</a></li>
             <li class="nav-item"><a class="nav-link" href="/produtos">Produtos</a></li>
+            <% if (usuario) { %>
+              <li class="nav-item d-flex align-items-center text-white me-2">
+                <span class="small">Olá, <%= usuario.nome %></span>
+              </li>
+              <li class="nav-item">
+                <form action="/logout" method="POST" class="d-inline">
+                  <button type="submit" class="btn btn-outline-light btn-sm">Sair</button>
+                </form>
+              </li>
+            <% } %>
           </ul>
         </div>
       </div>
